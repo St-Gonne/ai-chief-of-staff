@@ -1,16 +1,27 @@
 # AI Chief of Staff
 
-A permanent memory vault on my Mac, operated by Claude. Every morning I type "Daily Briefing", two words, and it reads my goals, scans overnight meeting intelligence, walks my commitment ledger, checks my calendar, flags whats gone stale, and asks me four health numbers. Everything we agree on gets written back to files and committed to git before the day moves on.
+This is not a note-taking app and its not really "a vault" either... the vault is just the architecture underneath. What this actually is: a chief of staff. An AI that knows my goals, my commitments, my calendar, my meetings, my health, my strengths and my weaknesses, and works with me daily to keep all of it moving toward the big picture. The memory lives in plain files on my Mac, Claude operates the files, and the whole thing runs on real data from my real work... not a demo, my actual deals and days.
 
 **Status: work in progress, running daily since 5 July 2026.**
+
+## What it does for me (and could do for anyone juggling too much)
+
+The value isn't any single feature, it's the loops:
+
+- **The Daily Briefing.** Every morning I type two words. It reads my goals, pulls overnight meeting intelligence, walks my commitment ledger, checks my calendar, flags whats gone stale, asks me four health numbers. Everything we agree on gets written back to files and committed before the day moves on.
+- **Pre-meeting prep.** Before an important call it builds me a prep doc: who the person is, the full history of the thread, what I want out of it, what to watch for. All from the vault's memory, not from me trying to remember.
+- **Post-meeting dissection.** Once the meeting intelligence system processes a call, we sit with it. What actually happened, what I committed to, where I read the room right or wrong. The AI gives me feedback like a chief of staff would, because it has the record and it has context on me.
+- **Coaching on me, from real data.** It knows my patterns... where I stall, what I avoid, what I'm genuinely good at. It's caught me gating easy tasks behind hard ones and called it out by name. The plan is to grow this into a proper training loop (I call mine Frame Gym) so managing my weaknesses and doubling down on strengths becomes a daily practice, not a yearly resolution.
+- **The Weekly Board Meeting.** A weekly review where we zoom out: are the goals still the right goals, whats drifting, what got edited three times this month and why. Short term work checked against long term direction, so the AI and I stay pointed at the same big picture.
+- **The trackers.** A 30,000-feet portfolio view of every active lane, an application tracker that updates itself as part of the morning routine, health metrics in the same ledger as deals. The point is one glance answers "where does everything stand".
 
 ## Repository status
 
 This repo documents the architecture and operating rules of a working system I use daily. The real vault contains private personal, family, health and business information and will not be published. What's public is sanitized system-design documents, the governance rules, and an explanation of how the system is built and maintained. Work in progress, not offered as an installable application.
 
-## The problem it solves
+## Under the hood: why a file vault
 
-I run several professional tracks in parallel and my working memory doesn't hold a hundred threads. Anything that wasn't captured with near-zero effort was getting lost. Chat AI is great at thinking but forgets everything between sessions... so the fix was to make the memory live in plain files on disk, and have the AI operate the files.
+I run several professional tracks in parallel and my working memory doesn't hold a hundred threads. Anything that wasn't captured with near-zero effort was getting lost. Chat AI is great at thinking but forgets everything between sessions... so the fix was to make the memory live in plain files on disk, and have the AI operate the files. Calendar and email are wired in through connectors, and the meeting intelligence system feeds it context the other way.
 
 ## The rules that make it trustworthy
 
