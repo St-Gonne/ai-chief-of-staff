@@ -43,3 +43,7 @@ Claude drafts almost everything here, including most of the wording of the opera
 The vault tracks my health alongside my work. A four-number daily check-in, meds tracking, doctor's orders logged as commitments with reminders, all sitting in the same ledger as my deals. That's deliberate. For anyone juggling a lot of parallel threads (ADHD included, that's me), health routines are usually the first thing that drops. They matter, they just live in some separate app nobody opens. Putting them in the system that already reminds me about everything else means following a treatment plan stops depending on memory.
 
 Where this is heading: connect my watch (maybe a smart ring later) so the daily numbers log themselves, then bring in medical reports and doctors notes, so the system can quietly check I'm actually following the plan while it tracks everything else I'm doing.
+
+## License
+
+Read it, learn from it, share it with credit. Not open source though: no commercial use and no modified redistribution without permission. Details in [LICENSE.md](LICENSE.md).
