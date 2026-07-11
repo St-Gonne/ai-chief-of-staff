@@ -4,6 +4,10 @@ A permanent memory vault on my Mac, operated by Claude. Every morning I type "Da
 
 **Status: work in progress, running daily since 5 July 2026.**
 
+## Repository status
+
+This repository documents the architecture and operating rules of a working system I use daily. The real vault contains private personal, family, health and business information and will not be published. What's public here is sanitized system-design documents, the governance rules, and an explanation of how the system is built and maintained. It is a work in progress and is not offered as an installable application.
+
 ## The problem it solves
 
 I run several professional tracks in parallel and my working memory doesn't hold a hundred threads. Anything not captured with near-zero effort was getting lost. Chat AI is great at thinking but forgets everything between sessions... so the fix was to make the memory live in plain files on disk, and make the AI operate the files.
@@ -23,6 +27,8 @@ Claude drafts almost everything here, including most of the wording of the opera
 
 [docs/OPERATING_RULES.md](docs/OPERATING_RULES.md) is a generalized version of the actual standing instructions the AI reads at the start of every session, with my personal data and named relationships taken out.
 
-## What's not here
+## Why health lives in the same system
 
-The vault's content. It's my real work, deals and health data, and it stays private. What's published is the system design, which is the transferable part anyway.
+The vault tracks my health alongside my work: a four-number daily check-in, meds tracking, and doctor's orders logged as commitments with reminders, sitting in the same ledger as my deals. That's deliberate. For anyone juggling a lot of parallel threads (ADHD included, that's me), health routines are usually the first thing that silently drops... not because they don't matter, but because they live in a separate app nobody opens. Putting them in the system that already reminds me about everything else means following a treatment plan stops depending on memory.
+
+Where this is heading: connect my watch (maybe a smart ring later) so the daily numbers log themselves, then bring in medical reports and doctors' notes, so the system can quietly check I'm actually following the plan while it tracks everything else I'm doing.
