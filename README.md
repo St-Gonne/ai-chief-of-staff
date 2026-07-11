@@ -38,6 +38,8 @@ Claude drafts almost everything here, including most of the wording of the opera
 
 [docs/OPERATING_RULES.md](docs/OPERATING_RULES.md) is a generalized version of the actual standing instructions the AI reads at the start of every session, with my personal data and named relationships taken out.
 
+And if you want the real thing: [docs/OPERATING_LAW.md](docs/OPERATING_LAW.md) is the full operating law behind those instructions, copied from the working vault with exactly two lines redacted (the ledger examples named real people and a real deal). It's the counterpart to the meeting system's control file... the conflict-resolution protocol, the provenance rules where AI-inferred claims decay unless confirmed, the vault's own health metrics, and the ladder by which the AI earns autonomy one category at a time.
+
 ## Why health lives in the same system
 
 The vault tracks my health alongside my work. A four-number daily check-in, meds tracking, doctor's orders logged as commitments with reminders, all sitting in the same ledger as my deals. That's deliberate. For anyone juggling a lot of parallel threads (ADHD included, that's me), health routines are usually the first thing that drops. They matter, they just live in some separate app nobody opens. Putting them in the system that already reminds me about everything else means following a treatment plan stops depending on memory.
