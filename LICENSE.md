@@ -6,6 +6,6 @@ The documentation in this repository (README, control documents, design notes) i
 
 Plain English: you're welcome to read this, learn from it, and share it with credit. You may not sell it, republish modified versions of it, or use it inside commercial products or paid offerings without my written permission.
 
-Any source code published here in future will carry its own terms (planned: PolyForm Noncommercial 1.0.0) unless stated otherwise. This is building in the open. It is not open source.
+Source code in this repository (currently `scripts/`) is licensed under PolyForm Noncommercial 1.0.0: https://polyformproject.org/licenses/noncommercial/1.0.0/ . Same spirit as the docs: use it and learn from it, but not commercially without permission. This is building in the open. It is not open source.
 
 Permissions and questions: sharan.tulsiani@gmail.com
