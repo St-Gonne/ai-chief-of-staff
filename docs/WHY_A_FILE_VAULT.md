@@ -8,15 +8,7 @@ The whole vault is about 1MB of markdown. Grep finds anything in it instantly, f
 
 At my size, an AI that can search, open files and follow links beats a similarity score. I'll revisit if the vault passes roughly 20MB, or if I start seeing searches genuinely miss things. I keep a log for exactly that, so the decision comes from data instead of nerves.
 
-```mermaid
-flowchart TD
-    S{"How big is the corpus?"}
-    S -->|"a few MB"| G["grep, wikilinks,<br/>generated index"]
-    S -->|"tens of MB and up"| E["time to consider<br/>embeddings"]
-    G --> L["log every search<br/>that misses"]
-    L -->|"misses pile up"| E
-    L -->|"nothing missing"| G
-```
+
 
 ## The actual problem is corruption
 
