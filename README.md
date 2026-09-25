@@ -1,8 +1,18 @@
 # AI Chief of Staff
 
-This is not a note-taking app and its not really "a vault" either... the vault is just the architecture underneath. What this actually is: a chief of staff. An AI that knows my goals, my commitments, my calendar, my meetings, my health, my strengths and my weaknesses, and works with me daily to keep all of it moving toward the big picture. The memory lives in plain files on my Mac, Claude operates the files, and the whole thing runs on real data from my real work... not a demo, my actual deals and days.
+The design and operating rules for a personal AI assistant backed by plain files.
+It brings together commitments, meeting context and daily planning so I do not
+have to reconstruct every thread from memory.
 
-**Status: work in progress, running daily since 5 July 2026.**
+**Public scope:** architecture notes, sanitized templates and an index-generation
+script. This is not a packaged assistant you can install. The published account
+of daily use dates from July 2026; it is not a current deployment report.
+
+Start with [the failures that changed the rules](docs/WHAT_WENT_WRONG.md),
+[the templates](templates/), or [the build guide](docs/BUILD_YOUR_OWN.md).
+Private records stay outside this repository. The [license](LICENSE.md) permits
+reading and sharing with credit but restricts commercial use and modified
+redistribution; this is not an open-source software license.
 
 ## What it does for me (and could do for anyone juggling too much)
 
