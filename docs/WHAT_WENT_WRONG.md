@@ -36,6 +36,30 @@ Easy to panic here, and easy to blame the other AI's overnight update. The diagn
 
 What went into the law: characterise the block before theorising about it (is it flickering or solid, one folder or the whole tree, which process owns it). Leave a note in the vault so the next session recognises it instead of investigating from scratch. And while blind, route around it: the meeting system still had access, so it answered state questions by pasting in the values the vault couldn't read, tagged as coming from it, and I had the vault verify them against source once access came back.
 
+## Four wrong claims in three days (July)
+
+The worst of them: the AI said the previous day's briefing didn't exist. Both that day's and the next day's files were on disk and committed. It had read a folder listing earlier in the session and reported it as current.
+
+None of the four was a tool failing. Each was the step from a result to what it means. A more careful-sounding AI doesn't fix that, so the rule became a procedure: call the first result an observation, run a second check that can fail in a different way, and show the file, command and count so I can re-run it myself.
+
+## Two checks that were really one (September)
+
+Asked how much of an old file archive was safely backed up, the AI reported about 1% and recommended acting on it. Its file listing only walked my own Drive, not the files shared with me, and its fingerprint match can't work on documents whose bytes change when exported. It then ran a filename check and called it independent confirmation. That check failed on the same exported documents.
+
+I asked it to look up 30 random files by hand. All 30 were there. The real answer was that almost nothing was missing, but three quarters of it lived in an account I don't own. What went into the procedure: two checks that share a failure mode are one check.
+
+## The stale list that hid most of the list (August)
+
+The morning briefing showed at most five stale to-dos, oldest first. It looked disciplined. When a counting script finally ran at session start, there were 31 stale items and the briefing had been hiding 26, including the largest unpaid invoice I'm owed. Stale items now show newest first with the total always printed, and money, legal and health items can't drop out of sight.
+
+## The briefing I stopped opening (October)
+
+Saved briefings went from 17 in July to 11 in August, 6 in September and none in October. The briefing reported on every open item, opened with what wasn't done, and scored me against goals I had moved off. Shorter versions of the same thing didn't help. What I use now is one screen: the date, one move for the main project, one move for money, today's calendar, sleep and energy.
+
+## Words I couldn't follow (August)
+
+I rejected two polished drafts of a rule before I could say what was wrong. It wasn't the rhythm, it was words I don't use, like escalation and cadence. The AI also kept pointing at things ("the last one", "rung 5") instead of naming them. The rule was in its instructions, it read it, and a week later it broke it anyway. So the fix is a check, not another rule: every name in a reply is one I've used, or it's explained in the same sentence.
+
 ## The pattern
 
 Every failure above was caught by one of three things: my own memory of what happened, a second system's independent count, or a forced check against the source.
